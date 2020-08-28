@@ -1,9 +1,11 @@
 import React from 'react';
+import GlobalStyle from './styles/global';
 
 const App: React.FC = () => (
-  <div>
-    <h1>Ola SIMCON</h1>
-  </div>
+  <>
+    <h1>Hello World</h1>
+    <GlobalStyle />
+  </>
 );
 
 export default App;
